@@ -136,7 +136,7 @@ img {
 }
 
 #content .header {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/header.jpg') no-repeat 7px top;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/images/header.jpg') no-repeat 7px top;
     width:961px;
     height:200px;
     position:relative;
@@ -153,7 +153,7 @@ img {
 }
 
 #content .content {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/bg.jpg') repeat-y 7px top;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/images/bg.jpg') repeat-y 7px top;
     margin:0;
     position:relative;
     float:left;
@@ -174,7 +174,7 @@ h1 {
 }
 
 #files .top {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/corners-top.png') no-repeat top left;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/images/corners-top.png') no-repeat top left;
     width:961px;
     height:6px;
     position:relative;
@@ -182,7 +182,7 @@ h1 {
 }
 
 #files .bottom {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/corners-bottom.png') no-repeat top left;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/images/corners-bottom.png') no-repeat top left;
     width:961px;
     height:5px;
     position:relative;
@@ -190,7 +190,7 @@ h1 {
 }
 
 #files .cont {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/bg.png') repeat top left;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/welcome/images/bg.png') repeat top left;
     width:961px;
     height:auto;
     position:relative;
@@ -225,7 +225,7 @@ ul.list li .filesize {
 }
 
 #content .footer {
-    background:transparent url('http://www.main-hosting.com/hostinger/welcome/images/foot.jpg') no-repeat top left;
+    background:transparent url('https://raw.githubusercontent.com/hostinger/banners/master/hostinger_welcome/images/foot.jpg') no-repeat top left;
     height:33px;
     width:949px;
     position:relative;
