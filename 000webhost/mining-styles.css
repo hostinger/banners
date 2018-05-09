@@ -10,6 +10,7 @@
     width: 500px;
     border: grey 1px solid;
     background-color: white;
+    z-index:9999999;
 }
 
 .paragraph-with-message-inside{
