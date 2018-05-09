@@ -1,0 +1,89 @@
+.div-to-contain-a-message-window{
+    font-family: 'Open Sans', sans-serif;
+    color: dimgrey;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    border: grey 1px solid;
+    background-color: white;
+}
+
+.paragraph-with-message-inside{
+    font-family: 'Open Sans', sans-serif;
+    color: dimgrey;
+    padding: 10px 20px 0px 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.style-for-OK-button{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.style-for-X-button{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.progress-bubbles-container{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: transparent;
+    right: 10px;
+    bottom: 40px;
+    transition: all .2s;
+}
+.progress-bubbles-container:hover{
+    background-color: #eaeaea;
+}
+.progress-bubbles-container:hover .information-image{
+    display: block;
+}
+
+.progress-bubbles-container a{
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    height: 30px;
+    width: 30px;
+}
+
+.progress-bubbles-container .information-image{
+    transition: all .2s;
+    display: none;
+    height: 100%;
+    width: auto;
+}
+
+.loading-progress-bubbles-gif{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+@media only screen and (max-width: 900px){
+    .div-to-contain-a-message-window,
+    .progress-bubbles-container{
+        display: none;
+    }
+}
