@@ -11,6 +11,7 @@
     border: grey 1px solid;
     background-color: white;
     z-index:9999999;
+    display: none;
 }
 
 .paragraph-with-message-inside{
