@@ -25,6 +25,7 @@
     text-align: center;
     text-decoration: underline;
     color: inherit;
+    cursor: pointer;
 }
 
 .style-for-X-button{
@@ -37,6 +38,7 @@
     right: 5px;
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .progress-bubbles-container{
