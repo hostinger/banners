@@ -3,7 +3,7 @@
     color: dimgrey;
     display:flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 50%;
     transform: translate(-50%);
@@ -44,7 +44,7 @@
 }
 
 .progress-bubbles-container{
-    position: absolute;
+    position: fixed;
     width: 60px;
     height: 60px;
     border-radius: 3px;
