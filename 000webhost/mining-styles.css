@@ -60,7 +60,7 @@
     display: block;
 }
 
-.progress-bubbles-container a{
+.progress-bubbles-container span{
     display: block;
     position: absolute;
     left: 5px;
@@ -68,6 +68,7 @@
     transform: translate(0px, -50%);
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .progress-bubbles-container .information-image{
