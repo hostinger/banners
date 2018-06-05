@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="678px" viewBox="0 0 1920 678" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape + Oval 3 Mask Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.20348627%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#543AAD" offset="0%"></stop>
+            <stop stop-color="#BC4EDD" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1920" height="678"></rect>
+        <linearGradient x1="50%" y1="86.7117332%" x2="50%" y2="21.6263041%" id="linearGradient-4">
+            <stop stop-color="#4B33A1" offset="0%"></stop>
+            <stop stop-color="#BC4EDD" offset="97.5772218%"></stop>
+            <stop stop-color="#C14EDE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-5">
+            <stop stop-color="#4B33A1" offset="0%"></stop>
+            <stop stop-color="#BC4EDD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Hostinger-Playground---Landing-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page">
+            <g id="Combined-Shape-+-Oval-3-Mask-Copy">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <path d="M499.146904,200.292082 C452.671048,121.668238 426,29.9487974 426,-68 C426,-359.606348 662.393652,-596 954,-596 C1245.60635,-596 1482,-359.606348 1482,-68 C1482,169.943332 1324.60572,371.125261 1108.25051,437.112441 C1124.27659,482.257005 1133,530.859772 1133,581.5 C1133,819.81087 939.81087,1013 701.5,1013 C463.18913,1013 270,819.81087 270,581.5 C270,416.314661 362.819234,272.808416 499.146867,200.292101 Z" id="Combined-Shape" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                <circle id="Oval-3" fill="url(#linearGradient-5)" mask="url(#mask-3)" cx="1545.5" cy="614.5" r="322.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
