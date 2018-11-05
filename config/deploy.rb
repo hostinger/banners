@@ -14,7 +14,6 @@ desc 'Deploy to server'
 task :deploy do
   deploy do
     invoke 'rsync:deploy'
-    invoke :'deploy:link_shared_paths'
     invoke :'deploy:cleanup'
   end
 end
