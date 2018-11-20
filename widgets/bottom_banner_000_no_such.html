@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Open Sans, sans-serif;
+        }
+        .sale-preheader {
+            padding: 10px 0;
+            background: #1d0a33;
+            -webkit-animation: appear 3s;
+            animation: appear 3s;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 100000;
+            left: 0;
+        }
+        .sale-preheader .container {
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px;}
+
+        @-webkit-keyframes appear {
+            0% {
+                opacity: 0; }
+            50% {
+                opacity: 0; }
+            100% {
+                opacity: 1; } }
+
+        @keyframes appear {
+            0% {
+                opacity: 0; }
+            50% {
+                opacity: 0; }
+            100% {
+                opacity: 1; } }
+
+        .sale-preheader__holder {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            text-align: center; }
+        @media (max-width: 991px) {
+            .sale-preheader__holder {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+                justify-content: space-evenly; } }
+
+        .sale-preheader-holder__left {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -ms-flex-preferred-size: 65%;
+            flex-basis: 65%; }
+        @media (max-width: 991px) {
+            .sale-preheader-holder__left {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+                margin-bottom: 20px; } }
+        @media (max-width: 768px) {
+            .sale-preheader-holder__left {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column; } }
+        @media (max-width: 600px) {
+            .sale-preheader-holder__left {
+                margin-bottom: 10px; } }
+
+        @media (max-width: 1199px) {
+            .sale-preheader-holder-left__text {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row; } }
+
+        @media (max-width: 480px) {
+            .sale-preheader-holder-left__text {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column; } }
+
+        .sale-preheader-holder-left__text {
+            line-height: 30px;
+            font-size: 20px;
+            color: white;
+            text-transform: uppercase;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            margin-right: 20px; }
+        .sale-preheader-holder-left-text__img {
+            width: 150px!important;
+            height: 30px!important;
+            margin: 0 20px;
+        }
+        @media (max-width: 1199px){
+            .sale-preheader-holder-left-text__img {
+                margin: 10px 20px;
+            }
+        }
+        @media (max-width: 1199px) {
+            .sale-preheader-holder-left__text {
+                font-size: 18px;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column; } }
+        @media (max-width: 991px) {
+            .sale-preheader-holder-left__text {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                font-size: 20px;
+                margin-right: 30px; } }
+        @media (max-width: 768px) {
+            .sale-preheader-holder-left__text {
+                margin-right: 0; } }
+        @media (max-width: 480px) {
+            .sale-preheader-holder-left__text {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column; } }
+
+        .sale-preheader-holder-left-text__left {
+            font-weight: 600;
+            margin-right: 10px; }
+        @media (max-width: 480px) {
+            .sale-preheader-holder-left-text__left {
+                margin-right: 0;
+                font-size: 14px; } }
+        .sale-preheader-holder-left-text__left {
+            font-weight: 600;
+            margin-right: 10px; }
+
+        .sale-preheader-holder-left-text__right {
+            font-weight: 700; }
+
+        .sale-preheader-holder-left__timer {
+            padding: 10px; }
+
+        .sale-preheader-holder__btn-wrapper {
+            margin-left: 20px;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            min-width: 230px; }
+        @media(min-width: 991px) {
+            .sale-preheader-holder__btn-wrapper {
+                margin-right: 50px;
+            }
+        }
+        .sale-preheader-holder-btn-wrapper__btn {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 6px;
+            background-color: #fc5155;
+            padding: 13px;
+            width: 100%;
+            letter-spacing: 1px;
+            color: white;
+            text-decoration: none;
+            max-width: 300px; }
+        .sale-preheader-holder-btn-wrapper__btn:visited {
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 6px;
+            background-color: #fc5155;
+            padding: 13px;
+            width: 100%;
+            letter-spacing: 1px;
+            color: white;
+            text-decoration: none;
+            max-width: 300px; }
+        .sale-preheader-holder__close-wrapper {
+            cursor: pointer;
+            color: white;
+            position: absolute;
+            right: 10px;
+            top: 8px;
+        }
+
+        .sale-preheader-holder-btn-wrapper__btn:focus, .sale-preheader-holder-btn-wrapper__btn:hover {
+            color: white;
+            text-decoration: none;
+            background-color: #fb1f24; }
+        @media (max-width: 768px) {
+            .sale-preheader-holder-btn-wrapper__btn {
+                padding: 10px; } }
+        .calendar-timer {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+        .calendar-timer--pre-header {
+            text-align: center; }
+        @media (max-width: 768px) {
+            .calendar-timer--pre-header .calendar-timer-holder__col-holder {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row; } }
+        .calendar-timer--pre-header .calendar-timer-holder-col-holder__col {
+            margin: 0;
+            padding: 0 10px;
+            min-height: unset; }
+        @media (max-width: 1199px) {
+            .calendar-timer--pre-header .calendar-timer-holder-col-holder__col .explained {
+                font-size: 8px; } }
+        @media (max-width: 768px) {
+            .calendar-timer--pre-header .calendar-timer-holder-col-holder__col {
+                min-width: 60px;
+                padding: 0 5px; }
+            .calendar-timer--pre-header .calendar-timer-holder-col-holder__col .explained {
+                font-size: 10px; } }
+        .calendar-timer--pre-header .triangle-left {
+            margin-left: 0; }
+        .calendar-timer--pre-header .triangle-right {
+            margin-right: 0; }
+        @media (max-width: 768px) {
+            .calendar-timer--pre-header .triangle-left, .calendar-timer--pre-header .triangle-right {
+                display: block; } }
+
+        .calendar-timer__holder {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+
+        .calendar-timer-holder__col-holder {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+
+        .calendar-timer-holder-col-holder__col {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 10px;
+            color: white;
+            border-radius: 6px;
+            min-width: 70px;
+            min-height: 70px;
+            margin: 0 10px; }
+        .calendar-timer-holder-col-holder__col .value {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1.4px; }
+        .calendar-timer-holder-col-holder__col .explained {
+            font-size: 12px;
+            font-weight: normal; }
+
+        .triangle-left {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-right: 15px solid #fc5155;
+            border-bottom: 10px solid transparent;
+            margin-left: 10px; }
+
+        .triangle-right {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-left: 15px solid #fc5155;
+            border-bottom: 10px solid transparent;
+            margin-right: 10px; }
+
+        @media (max-width: 768px) {
+            .triangle-left, .triangle-right {
+                display: none; }
+            .calendar-timer-holder__col-holder {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column; } }
+
+        .container-timer {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin-top: auto;
+            margin-bottom: 3rem; }
+        .container-timer .clock-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 400;
+            text-transform: uppercase; }
+        .container-timer .value {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center; }
+        .container-timer .explained {
+            text-align: center; }
+
+        .container-timer-white {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 3rem; }
+        .container-timer-white .clock-holder {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+        .container-timer-white .value {
+            font-size: 80px;
+            font-weight: 600;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center; }
+        .container-timer-white .explained {
+            text-align: center;
+            font-size: 18px; }
+        .container-timer-white .days, .container-timer-white .hours, .container-timer-white .minutes, .container-timer-white .seconds {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+        .container-timer-white .seperator {
+            font-size: 80px;
+            margin: 0 20px; }
+        @media (max-width: 600px) {
+            .container-timer-white .clock-holder {
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+            .container-timer-white .seperator {
+                display: none; }
+            .container-timer-white .days, .container-timer-white .hours, .container-timer-white .minutes, .container-timer-white .seconds {
+                margin-right: 20px; }
+        }
+
+    </style>
+    <script type="text/javascript">
+        jQuery(function () {
+            var salePreaheader = jQuery('#sale-preheader');
+            var countdownBf = jQuery('.countdown');
+            var ends = countdownBf.attr('data-ends-on');
+            var endsDate = new Date(ends.replace(/-/g, "/"));
+            var countDownDate = endsDate.getTime() - endsDate.getTimezoneOffset()*60*1000;
+            var paddingBody = 0;
+
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                if (salePreaheader.height() !== paddingBody) {
+                    paddingBody = salePreaheader.height();
+                    jQuery('body').css('padding-bottom', paddingBody + 20 + 'px');
+                }
+                if (distance >= 0){
+                    var days = ("00" + Math.floor(distance / (1000 * 60 * 60 * 24))).substr(-2);
+                    var hours = ("00" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).substr(-2);
+                    var minutes = ("00" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).substr(-2);
+                    var seconds = ("00" + Math.floor((distance % (1000 * 60)) / 1000)).substr(-2);
+                    countdownBf.find('.days .value').text(days);
+                    countdownBf.find('.hours .value').text(hours);
+                    countdownBf.find('.minutes .value').text(minutes);
+                    countdownBf.find('.seconds .value').text(seconds);
+                } else {
+                    salePreaheader.hide();
+                    countdownBf.find('.days .value').text('00');
+                    countdownBf.find('.hours .value').text('00');
+                    countdownBf.find('.minutes .value').text('00');
+                    countdownBf.find('.seconds .value').text('00');
+                }
+            }, 1000);
+
+            var closeBtn = jQuery('#sale-preheader-close');
+            closeBtn.on('click', function() {
+                salePreaheader.fadeOut();
+            });
+
+        });
+    </script>
+</head>
+<body>
+<div class="sale-preheader" id="sale-preheader">
+    <div class="container">
+        <div class="sale-preheader__holder">
+            <div class="sale-preheader-holder__left">
+                <div class="sale-preheader-holder-left__text">
+                    <img class="sale-preheader-holder-left-text__img" src="https://cdn.hostinger.com/hostinger-logo-white.png"/>
+                    <span class="sale-preheader-holder-left-text__left">
+                        Black Friday Sale</span>
+                    <span class="sale-preheader-holder-left-text__right">90% OFF</span></div>
+                <div class="sale-preheader-holder-left__timer">
+                    <div class="calendar-timer calendar-timer--pre-header">
+                        <div class="triangle-right"></div>
+                        <div class="calendar-timer__holder timer countdown" data-ends-on="2018-11-26 23:59:00">
+                            <div class="calendar-timer-holder__col-holder">
+                                <div class="calendar-timer-holder-col-holder__col days">
+                                    <div class="value">0</div>
+                                    <div class="explained">DAYS</div>
+                                </div>
+                                <div class="calendar-timer-holder-col-holder__col hours">
+                                    <div class="value">0</div>
+                                    <div class="explained">HOURS</div>
+                                </div>
+                            </div>
+                            <div class="calendar-timer-holder__col-holder">
+                                <div class="calendar-timer-holder-col-holder__col minutes">
+                                    <div class="value">0</div>
+                                    <div class="explained">MINUTES</div>
+                                </div>
+                                <div class="calendar-timer-holder-col-holder__col seconds">
+                                    <div class="value">0</div>
+                                    <div class="explained">SECONDS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="triangle-left"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sale-preheader-holder__btn-wrapper"><a
+                    id="hgr-all_pages-black_friday-preheader_section-button-get_started"
+                    class="sale-preheader-holder-btn-wrapper__btn" href="https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=no_such_website&utm_campaign=blackfriday-timer-banner">Get Started</a></div>
+            <div class="sale-preheader-holder__close-wrapper" id="sale-preheader-close">&times;</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
