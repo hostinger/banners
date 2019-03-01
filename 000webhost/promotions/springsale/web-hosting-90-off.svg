@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="183" viewBox="0 0 186 183">
+    <g fill="none" fill-rule="evenodd" font-family="OpenSans-ExtraBold, Open Sans" font-weight="600">
+        <g fill="#FF123A">
+            <text font-size="108.689" transform="translate(-2 64.477)">
+                <tspan x=".874" y="116">90</tspan>
+            </text>
+            <text font-size="62.072" transform="translate(-2 64.477)">
+                <tspan x="129.962" y="81.87">%</tspan>
+            </text>
+            <text font-size="31.499" transform="translate(-2 64.477)">
+                <tspan x="129.861" y="116.144">OFF</tspan>
+            </text>
+        </g>
+        <g fill="#FFF">
+            <text font-size="39.071" letter-spacing=".964" transform="translate(-.897 -29.888)">
+                <tspan x="0" y="124.341">HOSTING</tspan>
+            </text>
+            <text font-size="80.957" letter-spacing="1.998" transform="translate(-.897 -29.888)">
+                <tspan x="2.423" y="87">WEB</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
