@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>files-manager-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="files-manager-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-22" transform="translate(3.000000, 7.000000)">
+            <g id="file_manager_2_icon">
+                <path d="M33.9063579,7.41325307 C33.9063579,5.79085995 32.5795586,4.46352334 30.958008,4.46352334 L22.1128748,4.46352334 L18.4273956,0.0388452088 L5.15965408,0.0388452088 C3.90658449,0.0388452088 2.9483499,1.07129238 2.9483499,2.25118428 L2.9483499,7.41325307 L33.9063579,7.41325307 Z" id="Shape" fill="#A86A3F" fill-rule="nonzero"></path>
+                <path d="M38.3288827,9.6255086 L38.3288827,31.7487322 C38.3288827,33.0023882 37.3706481,33.9610713 36.1175785,33.9610713 L2.21130417,33.9610713 C0.958234592,33.9610713 0,33.0023882 0,31.7487322 L0,9.6255086 C0,8.37185258 0.958234592,7.41316953 2.21130417,7.41316953 L36.117662,7.41316953 C37.297002,7.41316953 38.3288827,8.44561671 38.3288827,9.6255086" id="Shape" fill="#C47E4D" fill-rule="nonzero"></path>
+                <path d="M39.0660119,10.3629828 C40.9087515,10.3629828 42.3091968,12.1328206 41.9407157,13.9026585 L38.3289662,31.011258 L38.3289662,10.3629828 L39.0660119,10.3629828 Z" id="Shape" fill="#A86A3F" fill-rule="nonzero"></path>
+                <text id="2" font-family="OpenSans-Bold, Open Sans" font-size="12.1300001" font-weight="bold" fill="#A86A3F">
+                    <tspan x="4.03809323" y="30">2</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>files-ftp-access</title>
+    <desc>Created with Sketch.</desc>
+    <g id="files-ftp-access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ftp_access_icon" transform="translate(2.000000, 2.000000)">
+            <ellipse id="Oval-16" fill="#FFFFFF" cx="28.2222222" cy="28.25" rx="4.22222222" ry="4.2"></ellipse>
+            <g id="databases_icon">
+                <g id="Group-46">
+                    <g id="Group-45">
+                        <rect id="Rectangle-14" fill="#4A4A4A" x="0" y="0" width="37" height="37" rx="1.76190476"></rect>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="6.06034483" cy="6.37931034" r="2.23275862"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="31.2586207" cy="5.42241379" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="28.7068966" cy="5.42241379" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="32.5344828" cy="7.3362069" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="29.9827586" cy="7.3362069" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="26.1551724" cy="5.42241379" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="27.4310345" cy="7.3362069" r="1"></circle>
+                    </g>
+                </g>
+                <g id="Group-46-Copy" transform="translate(3.523810, 15.857143)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="Group-45">
+                        <circle id="Oval" cx="2.5365353" cy="2.85550082" r="2.23275862"></circle>
+                        <circle id="Oval" cx="27.7348112" cy="1.89860427" r="1"></circle>
+                        <circle id="Oval" cx="25.183087" cy="1.89860427" r="1"></circle>
+                        <circle id="Oval" cx="29.0106732" cy="3.81239737" r="1"></circle>
+                        <circle id="Oval" cx="26.4589491" cy="3.81239737" r="1"></circle>
+                        <circle id="Oval" cx="22.6313629" cy="1.89860427" r="1"></circle>
+                        <circle id="Oval" cx="23.907225" cy="3.81239737" r="1"></circle>
+                    </g>
+                </g>
+                <g id="Group-46-Copy-2" transform="translate(3.523810, 28.190476)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="Group-45">
+                        <circle id="Oval" cx="2.5365353" cy="2.85550082" r="2.23275862"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="key" transform="translate(18.000000, 18.000000)">
+                <polygon id="Path-4" fill="#FAFAFA" points="4.33136654 2.19544151 9.60740265 0.729349396 16.3969182 4.84366607 16.3969182 11.2930862 24.8712368 20.1366617 24.8712368 25.1870611 19.5922846 25.1870611 17.9982466 22.1878055 10.968149 16.1003519 6.48056572 16.1003519 1.71157439 11.9426576 0.712430068 7.69674985 2.42311388 3.64622386"></polygon>
+                <path d="M15.9527166,11.2755136 L25,19.7388761 L25,25 L24,25 L20.4581662,24.9971733 C19.9863546,24.9616225 19.5419724,24.7607953 19.20568,24.4307786 C18.782248,24.0160609 18.6666283,23.6706755 18.6666283,23.054245 L18.6666283,22.8737522 L17.3666168,22.8737522 L17.3666168,20.7475045 L15.1999309,20.7475045 L15.1999309,19.0465063 L13.4665823,19.0465063 L13.4665823,17.3455081 L11.8736561,17.3455081 L10.776323,16.2469506 C8.10101513,16.9408794 5.34231957,16.2945807 3.34962936,14.3627312 C0.423913323,11.5263467 0.1995132,6.85495166 2.8505304,3.77511943 C5.86658927,0.270931361 11.2432593,0.0622381454 14.521396,3.27919312 C16.7340102,5.45094522 17.1622257,8.39800543 15.9527166,11.2755136 Z M7.91125741,7.78983492 C8.3578067,7.35129949 8.35777626,6.64837291 7.91134878,6.21027736 C7.45398593,5.76145053 6.70541447,5.76145053 6.24805162,6.21027736 C5.80119082,6.64879815 5.80119082,7.35122447 6.24805162,7.78974526 C6.70538401,8.2385422 7.45388623,8.23857208 7.9112574,7.78983492 Z M7.9112574,7.78983492 C7.91128786,7.78980503 7.91131832,7.78977515 7.91134878,7.78974526 L7.91116606,7.78992461 C7.91119651,7.78989471 7.91122696,7.78986482 7.91125741,7.78983492 Z" id="Shape" stroke="#FAFAFA" stroke-width="2" fill="#F3B807" fill-rule="nonzero"></path>
+                <circle id="Oval-7" fill="#FAFAFA" cx="7" cy="7" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

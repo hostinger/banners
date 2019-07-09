@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>advanced-ssh-console</title>
+    <desc>Created with Sketch.</desc>
+    <g id="advanced-ssh-console" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-52" transform="translate(3.000000, 8.000000)">
+            <g id="ssh_console_icon" transform="translate(0.000000, 0.500000)">
+                <g id="Group-51" fill-rule="nonzero">
+                    <g id="ssh_console_icon-copy">
+                        <g id="analyze_website_icon">
+                            <g id="statistics_icon-copy-2" fill="#4A4A4A">
+                                <g id="website_builder_icon-copy-3">
+                                    <g id="Group-39">
+                                        <path d="M2.53378125,30.0625674 C1.13473828,30.0625674 0,28.9948407 0,27.6775607 L0,2.44757413 C0,1.13029411 1.13473828,0.0625674088 2.53378125,0.0625674088 L39.466957,0.0625674088 C40.866,0.0625674088 42,1.13029411 42,2.44757413 L42,27.6775607 C42,28.9948407 40.866,30.0625674 39.466957,30.0625674 L2.53378125,30.0625674 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="browser-(3)-copy-2" transform="translate(1.826087, 0.000000)" fill="#ECF0F1">
+                                <circle id="Oval" cx="1.22036047" cy="1.22036047" r="1"></circle>
+                                <circle id="Oval" cx="3.05090118" cy="1.22036047" r="1"></circle>
+                                <circle id="Oval" cx="4.88144189" cy="1.22036047" r="1"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <text id="&gt;_" font-family="OpenSans-Bold, Open Sans" font-size="12.1300001" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="3.0445727" y="14">&gt;_</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

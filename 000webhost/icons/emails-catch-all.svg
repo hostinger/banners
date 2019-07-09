@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>emails-catch-all</title>
+    <desc>Created with Sketch.</desc>
+    <g id="emails-catch-all" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="catch_all_emails_icon" transform="translate(0.000000, 3.000000)">
+            <g id="Group-27-Copy" opacity="0.199999988" transform="translate(11.000000, 0.000000)">
+                <rect id="Rectangle-3" fill="#0091EA" x="0" y="0" width="29.023405" height="17.9813364"></rect>
+                <polygon id="Rectangle-9" fill="#80D8FF" points="0 0 29.023405 0 14.5117025 14.5233871"></polygon>
+            </g>
+            <g id="Group-26" transform="translate(0.000000, 5.000000)">
+                <rect id="Rectangle-3" fill="#0091EA" x="0" y="0" width="35.2427061" height="21.9771889"></rect>
+                <polygon id="Rectangle-9" fill="#80D8FF" points="0 0 35.2427061 0 17.6213531 17.7508065"></polygon>
+            </g>
+            <g id="Group-25" transform="translate(37.000000, 31.000000) rotate(-270.000000) translate(-37.000000, -31.000000) translate(26.000000, 20.000000)">
+                <ellipse id="Oval" stroke="#FAFAFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="11" cy="10.8135593" rx="12" ry="11.8135593"></ellipse>
+                <path d="M11,21.6271186 C4.92486775,21.6271186 -1.95399252e-14,16.7857232 -1.95399252e-14,10.8135593 C-1.95399252e-14,4.84139542 4.92486775,0 11,0 C17.0751322,0 22,4.84139542 22,10.8135593 C22,16.7857232 17.0751322,21.6271186 11,21.6271186 Z M4.61394485,8.90807819 L4.61394485,12.7958599 L12.5300753,12.7958599 L12.5300753,8.90807819 L4.61394485,8.90807819 Z M12.5300753,6.37256832 L12.5300753,11.0210031 L18.5376657,11.0210031 L12.5300753,6.37256832 Z M12.5300753,15.6694379 L18.5376657,11.0210031 L12.5300753,11.0210031 L12.5300753,15.6694379 Z" id="Combined-Shape" fill="#8BC34A" fill-rule="nonzero"></path>
+                <g id="Group-30" transform="translate(11.903224, 6.170457)">
+                    <g id="Group-29" transform="translate(0.049238, 0.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>accounts-start</title>
+    <desc>Created with Sketch.</desc>
+    <g id="accounts-start" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="getting_started_icon" transform="translate(10.000000, 3.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#BDC3C7" points="7.92780347 39.1033945 19.357711 39.1033945 19.357711 36.2067891 7.92780347 36.2067891"></polygon>
+            <polygon id="Shape" fill="#ECF0F1" points="7.92780347 36.2067891 19.357711 36.2067891 19.357711 33.3102656 7.92780347 33.3102656"></polygon>
+            <polygon id="Shape" fill="#95A5A5" points="15.7858497 41.999918 11.4996647 41.999918 9.35653179 39.1033945 17.9289827 39.1033945"></polygon>
+            <path d="M12.407237,0.0897421875 C6.01433526,0.808089844 0.853028902,6.05374219 0.155780347,12.5354414 C-0.342878613,17.1619219 1.37021965,21.3894844 4.35343353,24.2889609 C6.60581503,26.4794414 7.92739884,29.470875 7.92739884,32.6346562 L7.92739884,33.3102656 L19.3573064,33.3102656 C19.3573064,29.9966133 20.8031908,26.8784414 23.2470405,24.6785273 C26.1195491,22.0926562 27.9297572,18.3213516 27.9297572,14.1206133 C27.9297572,5.79009375 20.8139538,-0.855257812 12.407237,0.0897421875" id="Shape" fill="#F5B907"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>accounts-renew-order</title>
+    <desc>Created with Sketch.</desc>
+    <g id="accounts-renew-order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="renew_icon" transform="translate(3.000000, 8.000000)" fill="#0091EA">
+            <path d="M19.836448,27.9299999 L19.836448,31.5 L27.3,25.725 L19.836448,19.95 L19.836448,23.1 L4.94884779,23.1 L4.94884779,27.9317851 L0.118847889,27.9317851 L0.118847889,8.35889321 L0.118847889,3.52889331 L11.5256674,3.52889331 L11.5256674,8.35889321 L4.94884779,8.35889321 L4.94884779,23.1 L3.21488683,23.1 L3.21488683,27.9299999 L19.836448,27.9299999 Z" id="Combined-Shape"></path>
+            <path d="M34.4176002,24.4011066 L34.4176002,27.9711067 L41.8811521,22.1961067 L34.4176002,16.4211067 L34.4176002,19.5711067 L19.5299999,19.5711067 L19.5299999,24.4028918 L14.7,24.4028918 L14.7,4.8299999 L14.7,0 L26.1068195,0 L26.1068195,4.8299999 L19.5299999,4.8299999 L19.5299999,19.5711067 L17.7960389,19.5711067 L17.7960389,24.4011066 L34.4176002,24.4011066 Z" id="Combined-Shape" transform="translate(28.290576, 13.985553) scale(-1, -1) translate(-28.290576, -13.985553) "></path>
+        </g>
+    </g>
+</svg>
