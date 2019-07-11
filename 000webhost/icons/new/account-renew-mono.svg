@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>account-renew-mono</title>
+    <desc>Created with Sketch.</desc>
+    <g id="account-renew-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="renew_icon" transform="translate(3.000000, 5.000000)" fill="#696E92">
+            <path d="M6.61214935,9.60093747 L1.64961593,9.60093747 L0.0396159631,9.60155113 L0.0396159631,2.87336954 L0.0396159631,1.21305707 L3.84188915,1.21305707 L3.84188915,2.87336954 L1.64961593,2.87336954 L1.64961593,7.940625 L6.61214935,7.940625 L6.61214935,6.8578125 L9.1,8.84296875 L6.61214935,10.828125 L6.61214935,9.60093747 Z" id="Combined-Shape"></path>
+            <path d="M11.4725334,8.38788039 L6.50999997,8.38788039 L4.9,8.38849406 L4.9,1.66031247 L4.9,0 L8.70227318,0 L8.70227318,1.66031247 L6.50999997,1.66031247 L6.50999997,6.72756793 L11.4725334,6.72756793 L11.4725334,5.64475543 L13.960384,7.62991168 L11.4725334,9.61506793 L11.4725334,8.38788039 Z" id="Combined-Shape" transform="translate(9.430192, 4.807534) scale(-1, -1) translate(-9.430192, -4.807534) "></path>
+        </g>
+    </g>
+</svg>

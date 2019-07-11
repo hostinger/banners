@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>account-transfer-account-mono</title>
+    <desc>Created with Sketch.</desc>
+    <g id="account-transfer-account-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="transfer_account_icon" transform="translate(3.000000, 3.000000)" fill="#696E92" fill-rule="nonzero">
+            <path d="M7,14 C3.13400675,14 -2.13162821e-14,10.8659932 -2.13162821e-14,7 C-2.13162821e-14,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,10.8659932 10.8659932,14 7,14 Z M2.93614672,5.76651457 L2.93614672,8.2832134 L7.97368428,8.2832134 L7.97368428,5.76651457 L2.93614672,5.76651457 Z M7.97368428,4.12518921 L7.97368428,7.1342857 L11.7966963,7.1342857 L7.97368428,4.12518921 Z M7.97368428,10.1433822 L11.7966963,7.1342857 L7.97368428,7.1342857 L7.97368428,10.1433822 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
