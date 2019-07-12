@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>account-details-mono</title>
+    <desc>Created with Sketch.</desc>
+    <g id="account-details-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="details_icon" transform="translate(3.000000, 3.000000)">
+            <path d="M7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,10.8659932 10.8659932,14 7,14 Z M6.33333333,6.33333333 L6.33333333,9.98378181 L7.72628303,9.98378181 L7.72628303,6.33333333 L6.33333333,6.33333333 Z M7.02999997,5.39333328 C7.41475833,5.39333328 7.72666661,5.081425 7.72666661,4.69666664 C7.72666661,4.31190828 7.41475833,4 7.02999997,4 C6.64524161,4 6.33333333,4.31190828 6.33333333,4.69666664 C6.33333333,5.081425 6.64524161,5.39333328 7.02999997,5.39333328 Z" id="Combined-Shape" fill="#D10303"></path>
+            <g id="Group-2" transform="translate(6.333333, 4.000000)"></g>
+        </g>
+    </g>
+</svg>

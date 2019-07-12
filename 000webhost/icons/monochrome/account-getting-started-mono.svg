@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>account-getting-started-mono</title>
+    <desc>Created with Sketch.</desc>
+    <g id="account-getting-started-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="getting_started_icon" transform="translate(6.000000, 3.000000)" fill="#D10303" fill-rule="nonzero">
+            <polygon id="Shape" points="2.54822254 13.0344648 6.22212139 13.0344648 6.22212139 12.0689297 2.54822254 12.0689297"></polygon>
+            <polygon id="Shape" points="5.07402312 13.9999727 3.69632081 13.9999727 3.00745665 13.0344648 5.76288728 13.0344648"></polygon>
+            <path d="M3.98804046,0.0299140625 C1.93317919,0.269363281 0.274187861,2.01791406 0.0500722543,4.17848047 C-0.110210983,5.72064063 0.440427746,7.12982813 1.39931792,8.09632031 C2.12329769,8.82648047 2.54809249,9.823625 2.54809249,10.8782188 L2.54809249,11.1034219 L6.22199133,11.1034219 C6.22199133,9.99887109 6.68673988,8.95948047 7.47226301,8.22617578 C8.39556936,7.36421875 8.97742197,6.10711719 8.97742197,4.70687109 C8.97742197,1.93003125 6.69019942,-0.285085938 3.98804046,0.0299140625" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>emails-catch-all-emails-mono</title>
+    <desc>Created with Sketch.</desc>
+    <g id="emails-catch-all-emails-mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, 3.000000)">
+            <g id="catch_all_emails_icon">
+                <g id="Group-27-Copy" transform="translate(3.500000, 0.300000)">
+                    <path d="M7.00799975,2.42857143 L8.46515981,1 L8.46515981,6.13752469 L7.07078929,6.13752469 L7.07078929,2.42857143 L7.00799975,2.42857143 Z M1.45716005,2.42857143 L-1.09690035e-13,2.42857143 L-1.10134124e-13,1 L1.45716005,2.42857143 Z" id="Combined-Shape" fill="#D10303"></path>
+                    <path d="M7.00799975,2.12857143 L1.45716005,2.12857143 L-1.10134124e-13,0.7 L8.46515981,0.7 L7.00799975,2.12857143 Z" id="Combined-Shape" fill="#696E92"></path>
+                </g>
+                <g id="Group-26" transform="translate(0.000000, 2.428571)" fill="#D10303">
+                    <path d="M1.33226763e-14,1 L5.13956131,6.07165899 L10.2791226,1 L10.2791226,4.64029296 C8.71100002,4.70880731 7.41070935,5.80915364 7.04038575,7.27919684 L2.7533531e-14,7.27919684 L2.7533531e-14,1 Z" id="Combined-Shape"></path>
+                    <polygon id="Rectangle-9" points="0 0.571428571 10.2791226 0.571428571 5.13956131 5.64308756"></polygon>
+                </g>
+                <g id="Group-25" transform="translate(10.500000, 10.500000) rotate(-270.000000) translate(-10.500000, -10.500000) translate(7.000000, 7.000000)">
+                    <path d="M3.70833333,6.5 C1.93641976,6.5 0.5,5.11674417 0.5,3.41041162 C0.5,1.70407908 1.93641976,0.320823245 3.70833333,0.320823245 C5.48024691,0.320823245 6.91666667,1.70407908 6.91666667,3.41041162 C6.91666667,5.11674417 5.48024691,6.5 3.70833333,6.5 Z M1.84573391,2.86598844 L1.84573391,3.97678322 L4.1546053,3.97678322 L4.1546053,2.86598844 L1.84573391,2.86598844 Z M4.1546053,2.14155705 L4.1546053,3.46968127 L5.90681916,3.46968127 L4.1546053,2.14155705 Z M4.1546053,4.79780549 L5.90681916,3.46968127 L4.1546053,3.46968127 L4.1546053,4.79780549 Z" id="Combined-Shape" fill="#D10303" fill-rule="nonzero"></path>
+                    <g id="Group-30" transform="translate(4.471774, 2.762988)">
+                        <g id="Group-29" transform="translate(0.014361, 0.000000)"></g>
+                    </g>
+                </g>
+            </g>
+            <polygon id="Path-6" fill="#D10303" points="3.5 1 5.24947778 2.72857143 10.2791226 2.72857143 11.9651598 1"></polygon>
+        </g>
+    </g>
+</svg>
